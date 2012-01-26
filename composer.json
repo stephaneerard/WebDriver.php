@@ -1,0 +1,22 @@
+{
+    "name":"webdriver.php",
+    "version":"1.0.0",
+    "repositories":{
+        "facebook":{
+            "package":{
+                "name":"facebook/web-driver",
+                "version":"1.0.0",
+                "source":{
+                    "url":"git://github.com/facebook/php-webdriver.git",
+                    "type":"git",
+                    "reference":"master"
+                }
+            }
+        }
+    },
+    "require":{
+        "php":">=5.2",
+        "facebook/web-driver":"*"
+    },
+    "vendor-dir":"vendor"
+}
